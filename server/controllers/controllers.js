@@ -129,7 +129,7 @@ const getMeetingSectionsSS = asyncWrapper(async (req, res) => {
               // Define Screenshot function
               const browser = await puppeteer.launch({
                 headless: true,
-                args: ["--no-sandbox", "--disable-setuid-sandbox"],
+                args: minimal_args,
               });
               // Launch a "browser"
               const page = await browser.newPage();
