@@ -4,7 +4,7 @@ const {router} = require("./routes/routes.js");
 const app = express();
 const PORT = process.env.PORT || 7000;
 
-app.use(express.json());
+app.use(express.json({ extended: false }));
 
 app.get("/", (req, res) => {
   res.send("<h1>Go to /api/v1/ </h1>");
