@@ -1,5 +1,5 @@
 {
-  "name": "discordbot",
+  "name": "course-finder-api",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,13 @@
   "description": "",
   "engines": {
     "node": "14.x"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LunarFang416/Course-Finder-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LunarFang416/Course-Finder-API/issues"
+  },
+  "homepage": "https://github.com/LunarFang416/Course-Finder-API#readme"
 }
