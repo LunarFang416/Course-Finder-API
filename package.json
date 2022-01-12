@@ -12,13 +12,13 @@
     "cheerio": "^1.0.0-rc.10",
     "dotenv": "^10.0.0",
     "express": "^4.17.2",
-    "node": "^17.3.0",
+    "node": "14.x",
     "nodemon": "^2.0.15",
     "puppeteer": "^13.0.1",
     "request": "^2.88.2",
-    "request-promise": "^4.2.6"
+    "request-promise": "^4.2.6",
+    "vercel": "^23.1.2"
   },
-  "devDependencies": {},
   "keywords": [],
   "description": "",
   "engines": {
